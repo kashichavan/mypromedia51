@@ -15,7 +15,7 @@ step 3: go to urls.py inside project then update static files for urlpatterns
 ------------------------------------
 	i) from django.conf.urls.static import static 
 
-	ii) from django.conf.urls import settings
+	ii) from django.conf import settings
 
 step 4: update static object to urlpatterns
 
